@@ -4,7 +4,7 @@ from random import randint, choice
 import os
 
 def path(file):
-    return os.path.join(os.path.dirname(__file__), file)
+    return os.path.join(os.path.dirname(__file__), 'assets', file)
 
 # base class
 class Sprite:
